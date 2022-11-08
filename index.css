@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+/* Layout */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+#logo-img {
+    width: 127px;
+    align-self: center;
+}
+
+.user-avatar-img {
+    width: 34px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.user-post {
+    width: 100%;
+    cursor: pointer;
+}
+
+.user-info {
+    padding: 10px;
+    display: flex;
+}
+
+.interactions-imgs-wrapper {
+    padding: 14px 0 12px 0;
+    display: flex;
+    justify-content: start;
+}
+
+.interaction-img {
+    width: 25px;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.interaction-img:hover {
+    opacity: 0.5;
+}
+
+.like-img:hover {
+    filter: invert(12%) sepia(83%) saturate(4217%) hue-rotate(352deg) brightness(110%) contrast(87%);
+    cursor: pointer;
+}
+
+.like-img:focus,
+.like-img:active{
+    filter: invert(12%) sepia(83%) saturate(4217%) hue-rotate(352deg) brightness(110%) contrast(87%);
+    opacity: 1;
+}
+
+.post-interactions {
+    padding-left: 13px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #c6c6c6a5;
+}
+
+/* Typography */
+
+.bold-text {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.small-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.user-info span {
+    display: block;
+}
+
+.user-info p {
+    margin: 0 0 0 7px;
+    line-height: 16px;
+}
+
+.post-interactions p {
+    margin-top: 0;
+}
+
+footer {
+    color: #888888;
+    text-align: center;
+    margin: 40px;
+}
+
+footer:hover {
+    color: #c6c6c6;
+    transition: 1s;
+}
